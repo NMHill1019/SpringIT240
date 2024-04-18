@@ -1,0 +1,230 @@
+/* Global styles */
+html {
+    background-image: linear-gradient(to right bottom, #D8E6E7, #C2D5D6, #ADD4E0, #99CDE3, #85C6DF, #82C5E0, #7FC4E2, #7BC3E2, #77C1E3, #73BEE3, #70BCE3, #6CB9E4);
+    /* Background color gradient matching the header image */
+}
+
+/* Reset styles */
+article, body, div, footer, header, h1, h2, h3, nav, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Font styles */
+body {
+    font-family: 'Jersey 10', 'Libre Baskerville', Arial;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    text-indent: 20px;
+}
+
+/* Header styles */
+header {
+    background-image: url("images/header.png");
+    color: rgb(34, 34, 35); /* White text color */
+    
+    padding: 20px;
+    text-align: center;
+    font-size: 25px; 
+}
+
+/* Main Content Class Style */ 
+.main-content, .text-section {
+    font-size: 18.5px;
+    color: #333;
+    margin: auto 15em auto 15em ;
+}
+
+/* Navigation styles */
+nav {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 22px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Black link color */
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #4D7EA8; /* Light blue on hover */
+    text-shadow: 1px -1px black;
+}
+
+nav ul li a:visited {
+    color: #000;
+}
+
+/* Additional styles for the nav section */
+nav.special {
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust the alpha value to make it more transparent */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    padding: 10px; /* Same padding as the original nav */
+    width: 90%; 
+}
+
+/* Main content container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    flex-direction: column;
+    flex: 1; 
+}
+
+/* Form styles */ 
+#align
+{ 
+    text-align: center;
+}
+
+/* Section styles */
+.template, .text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+}
+
+.template p, .text-section p {
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+.template a, .text-section a {
+    color: #000; /* Black link color */
+}
+
+#resume {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Social Styles */ 
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#socials p {
+    text-indent: 20px; 
+    font-size: 18px;
+}
+
+#socials a {
+    color: #000; /* Black link color */
+}
+
+#socials p a { 
+    text-decoration: none; 
+    font-style: italic; 
+}
+
+/* Image container styles */
+.image-container {
+    max-width: 50%; /* Set a maximum width for the image container */
+    margin: 20px auto; /* Center the image container horizontally */
+    overflow: hidden; /* Prevent image overflow */
+}
+
+/* Ensure image is proportionate to text */
+.image-container img {
+    width: 70%; /* Set the image width to 100% of the container */
+    height: auto;
+}
+
+/* Secondary navigation styles */
+.secondary-nav {
+    position: fixed;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    list-style-type: none
+}
+
+.secondary-nav li {
+    margin-bottom: 10px;
+}
+
+.secondary-nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.secondary-nav a:hover {
+    color: #4D7EA8; /* Light blue on hover */
+    text-shadow: 1px -1px black;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust the alpha value to make it more transparent */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+footer p {
+    margin-bottom: 10px;
+    text-decoration: none; 
+}
+
+/* Table Styles */ 
+
+table {
+    width: 100%; 
+}
+
+th, td {
+    padding: 15px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+}
